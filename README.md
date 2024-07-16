@@ -22,8 +22,7 @@ This project provides a framework for predicting the accuracy of different optio
 Implement the get_option_pricing_data function in the extract_data.py module to fetch and return the necessary option pricing data.
 
  - Implementing Pricing Models:
-The models.py module should contain the implementation of the following functions:
-
+The models.py module should contain the implementation of the following functions: \n
 monte_carlo(S0, K, T, r, sigma, num_simulations, option_type)
 black_scholes(S0, K, T, r, sigma, option_type)
 binomial(S0, K, T, r, sigma, N, option_type)
